@@ -1,0 +1,10 @@
+﻿{
+  "Info": {
+    "Class": "clsDbProjProperty",
+    "Description": "Project Properties (Access)"
+  },
+  "Items": {
+    "VCS Build Path": "C:\\Users\\aayus\\Desktop",
+    "VCS Source Path": "C:\\Users\\aayus\\Documents\\GitHub\\gym-management-system\\Access"
+  }
+}
