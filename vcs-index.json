@@ -1,0 +1,70 @@
+﻿{
+  "Info": {
+    "Class": "clsVCSIndex",
+    "Description": "Version Control System Index"
+  },
+  "Items": {
+    "MergeBuildDate": null,
+    "FullBuildDate": null,
+    "ExportDate": "3/27/2022 11:40:57 AM",
+    "FullExportDate": "3/27/2022 11:40:57 AM",
+    "OptionsHash": "0d5416f",
+    "LastMergedCommit": "",
+    "Components": {
+      "Forms": {
+        "formDashboard.bas": {
+          "ExportDate": "3/27/2022 11:40:57 AM",
+          "SourceModified": "3/27/2022 11:40:57 AM",
+          "FilePropertiesHash": "1aeb44b"
+        },
+        "LoginForm.bas": {
+          "Hash": "f92b1cf",
+          "ExportDate": "3/27/2022 11:40:57 AM",
+          "SourceModified": "3/27/2022 11:40:57 AM",
+          "FilePropertiesHash": "e6e35c1"
+        }
+      },
+      "Project": {
+        "project.json": {
+          "Hash": "19c3478",
+          "ExportDate": "3/27/2022 11:40:57 AM",
+          "SourceModified": "3/27/2022 11:40:57 AM",
+          "FilePropertiesHash": "0dc629e"
+        }
+      },
+      "Tables": {
+        "Login.xml": {
+          "ExportDate": "3/27/2022 11:40:57 AM",
+          "SourceModified": "3/27/2022 11:40:57 AM",
+          "FilePropertiesHash": "de787fb"
+        },
+        "LoginType.xml": {
+          "ExportDate": "3/27/2022 11:40:57 AM",
+          "SourceModified": "3/27/2022 11:40:57 AM",
+          "FilePropertiesHash": "b8021e8"
+        },
+        "Member.xml": {
+          "ExportDate": "3/27/2022 11:40:57 AM",
+          "SourceModified": "3/27/2022 11:40:57 AM",
+          "FilePropertiesHash": "ca529e7"
+        }
+      },
+      "VB Project": {
+        "vbe-project.json": {
+          "Hash": "5d13a36",
+          "ExportDate": "3/27/2022 11:40:57 AM",
+          "SourceModified": "3/27/2022 11:40:57 AM",
+          "FilePropertiesHash": "4ac066e"
+        }
+      },
+      "VBE References": {
+        "vbe-references.json": {
+          "Hash": "9521cdc",
+          "ExportDate": "3/27/2022 11:40:57 AM",
+          "SourceModified": "3/27/2022 11:40:57 AM",
+          "FilePropertiesHash": "b91510f"
+        }
+      }
+    }
+  }
+}
