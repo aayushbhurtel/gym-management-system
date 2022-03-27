@@ -2,8 +2,8 @@
 Beginning Export of all Source
 ECUGymProject.accdb
 VCS Version 3.4.20
-Performing Full Export
-3/27/2022 11:43:30 AM
+Using Fast Save
+3/27/2022 4:33:19 PM
 -------------------------------------
 -------------------------------------
 Exporting project...          
@@ -18,58 +18,59 @@ Exporting vbe references...
   stdole
 [2]
 -------------------------------------
-No vbe forms found in this database.
+No modified vbe forms found in this database.
 -------------------------------------
 Exporting proj properties...  
   Current Project Properties (Access)
 [2]
 -------------------------------------
-No saved specs found in this database.
+No modified saved specs found in this database.
 -------------------------------------
 Exporting db properties...    
   Database Properties (DAO)
-[31]
+[50]
 -------------------------------------
-No shared images found in this database.
+Exporting shared images...    
+  East_Central_logo
+[1]
 -------------------------------------
 Exporting themes...           
   Office Theme
 [1]
 -------------------------------------
-No imex specs found in this database.
+No modified imex specs found in this database.
 -------------------------------------
 Exporting tables...           
   Login
-    Sanitized in 0.003 seconds.
+    Sanitized in 0.008 seconds.
   Login (SQL)
-  LoginType
-    Sanitized in 0.001 seconds.
-  LoginType (SQL)
   Member
     Sanitized in 0.004 seconds.
   Member (SQL)
-[3]
+[2]
 -------------------------------------
-No queries found in this database.
+No modified queries found in this database.
 -------------------------------------
 Exporting forms...            
   LoginForm
-    Sanitized in 0.007 seconds.
+    Sanitized in 0.009 seconds.
   formDashboard
-    Sanitized in 0.004 seconds.
+    Sanitized in 0.006 seconds.
 [2]
 -------------------------------------
-No macros found in this database.
+No modified macros found in this database.
 -------------------------------------
-No reports found in this database.
+No modified reports found in this database.
 -------------------------------------
-No table data found in this database.
+No modified table data found in this database.
 -------------------------------------
-No modules found in this database.
+No modified modules found in this database.
 -------------------------------------
-No table data macros found in this database.
+No modified table data macros found in this database.
 -------------------------------------
-No relations found in this database.
+Exporting relations...        
+  MemberLogin
+[1]
 -------------------------------------
 Exporting doc properties...   
   Database Documents
@@ -79,53 +80,60 @@ Exporting nav pane groups...
   Groups
 [1]
 -------------------------------------
-No hidden attributes found in this database.
+No modified hidden attributes found in this database.
 -------------------------------------
-Done. (0.39 seconds)
+Done. (0.83 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
 --------------------------------------------------
 Object Type                   Count     Seconds
 --------------------------------------------------
-Project                       1         0.01
+Project                       1         0.02
 VB Project                    1         0.02
-VBE References                2         0.01
-Proj Properties               2         0.00
-DB Properties                 31        0.05
-Themes                        1         0.00
-Tables                        3         0.07
-Forms                         2         0.13
+VBE References                2         0.02
+Proj Properties               2         0.01
+DB Properties                 50        0.10
+Shared Images                 1         0.01
+Themes                        1         0.01
+Tables                        2         0.08
+Forms                         2         0.29
+Relations                     1         0.01
 Doc Properties                2         0.01
-Nav Pane Groups               1         0.01
+Nav Pane Groups               1         0.02
 --------------------------------------------------
-TOTALS:                       46        0.32
+TOTALS:                       66        0.60
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
-Convert to JSON               283       0.11
+Read File                     14        0.02
+Parse JSON                    8         0.01
+Convert to JSON               369       0.16
 Compute SHA256                16        0.00
-Console Updates               2         0.04
-Write File                    15        0.01
-Verify Path                   21        0.00
-Get Modified Date             8         0.00
-Get File Property Hash        8         0.00
+Console Updates               2         0.07
+Compare Dictionary            6         0.00
+Get Modified Date             7         0.00
+Get File Property Hash        7         0.00
+Write File                    10        0.01
+Verify Path                   16        0.00
 Create Folder                 3         0.00
+Write to Disk                 1         0.00
 Export Theme                  1         0.00
-App.ExportXML()               3         0.04
-Read File                     7         0.01
-Sanitize XML                  3         0.00
-Format XML                    3         0.00
-Save Table SQL                3         0.00
-App.SaveAsText()              2         0.01
-Read File Bytes               4         0.02
+Clear Orphaned                2         0.01
+App.ExportXML()               2         0.03
+Sanitize XML                  2         0.00
+Format XML                    2         0.01
+Save Table SQL                2         0.01
+App.SaveAsText()              2         0.03
+Read File Bytes               4         0.03
 Read File DevMode             2         0.00
+Delete File                   2         0.00
 Sanitize File                 2         0.01
 Get VBA Hash                  2         0.00
 --------------------------------------------------
-Other Operations                        0.13
+Other Operations                        0.42
 --------------------------------------------------
 
 

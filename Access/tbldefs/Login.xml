@@ -10,6 +10,8 @@
 	<xsd:element name="Login">
 		<xsd:annotation>
 			<xsd:appinfo>
+				<od:index index-name="MemberID" index-key="MemberID " primary="no" unique="no" clustered="no" order="asc"/>
+				<od:index index-name="MemberLogin" index-key="MemberID " primary="no" unique="no" clustered="no" order="asc"/>
 				<od:index index-name="PrimaryKey" index-key="LoginID " primary="yes" unique="yes" clustered="no" order="asc"/>
 				<od:tableProperty name="Orientation" type="2" value="0"/>
 				<od:tableProperty name="OrderByOn" type="1" value="0"/>
@@ -36,7 +38,7 @@
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+							<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 							<od:fieldProperty name="TextAlign" type="2" value="0"/>
 							<od:fieldProperty name="AggregateType" type="4" value="-1"/>
@@ -106,6 +108,34 @@
 							<od:fieldProperty name="DisplayControl" type="3" value="109"/>
 							<od:fieldProperty name="TextAlign" type="2" value="0"/>
 							<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+							<od:fieldProperty name="ResultType" type="2" value="0"/>
+							<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+						</xsd:appinfo>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="MemberID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+					<xsd:annotation>
+						<xsd:appinfo>
+							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+							<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+							<od:fieldProperty name="Required" type="1" value="0"/>
+							<od:fieldProperty name="DisplayControl" type="3" value="111"/>
+							<od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+							<od:fieldProperty name="RowSource" type="12" value="SELECT [Member].[ID] FROM Member; "/>
+							<od:fieldProperty name="BoundColumn" type="3" value="1"/>
+							<od:fieldProperty name="ColumnCount" type="3" value="1"/>
+							<od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+							<od:fieldProperty name="ColumnWidths" type="10" value="1440"/>
+							<od:fieldProperty name="ListRows" type="3" value="16"/>
+							<od:fieldProperty name="ListWidth" type="10" value="1440twip"/>
+							<od:fieldProperty name="LimitToList" type="1" value="0"/>
+							<od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
+							<od:fieldProperty name="TextAlign" type="2" value="0"/>
+							<od:fieldProperty name="AllowValueListEdits" type="1" value="1"/>
+							<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+							<od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
 							<od:fieldProperty name="ResultType" type="2" value="0"/>
 							<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 						</xsd:appinfo>
