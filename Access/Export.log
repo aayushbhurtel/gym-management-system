@@ -3,7 +3,7 @@ Beginning Export of all Source
 ECUGymProject.accdb
 VCS Version 3.4.20
 Using Fast Save
-3/27/2022 4:33:19 PM
+3/27/2022 4:50:43 PM
 -------------------------------------
 -------------------------------------
 Exporting project...          
@@ -42,21 +42,19 @@ No modified imex specs found in this database.
 -------------------------------------
 Exporting tables...           
   Login
-    Sanitized in 0.008 seconds.
+    Sanitized in 0.007 seconds.
   Login (SQL)
   Member
-    Sanitized in 0.004 seconds.
+    Sanitized in 0.003 seconds.
   Member (SQL)
 [2]
 -------------------------------------
 No modified queries found in this database.
 -------------------------------------
 Exporting forms...            
-  LoginForm
-    Sanitized in 0.009 seconds.
   formDashboard
-    Sanitized in 0.006 seconds.
-[2]
+    Sanitized in 0.007 seconds.
+[1]
 -------------------------------------
 No modified macros found in this database.
 -------------------------------------
@@ -82,7 +80,7 @@ Exporting nav pane groups...
 -------------------------------------
 No modified hidden attributes found in this database.
 -------------------------------------
-Done. (0.83 seconds)
+Done. (0.87 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
@@ -93,45 +91,45 @@ Project                       1         0.02
 VB Project                    1         0.02
 VBE References                2         0.02
 Proj Properties               2         0.01
-DB Properties                 50        0.10
+DB Properties                 50        0.21
 Shared Images                 1         0.01
 Themes                        1         0.01
 Tables                        2         0.08
-Forms                         2         0.29
+Forms                         1         0.23
 Relations                     1         0.01
 Doc Properties                2         0.01
-Nav Pane Groups               1         0.02
+Nav Pane Groups               1         0.01
 --------------------------------------------------
-TOTALS:                       66        0.60
+TOTALS:                       65        0.64
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
 Read File                     14        0.02
-Parse JSON                    8         0.01
-Convert to JSON               369       0.16
-Compute SHA256                16        0.00
-Console Updates               2         0.07
-Compare Dictionary            6         0.00
-Get Modified Date             7         0.00
-Get File Property Hash        7         0.00
-Write File                    10        0.01
-Verify Path                   16        0.00
-Create Folder                 3         0.00
+Parse JSON                    10        0.01
+Convert to JSON               653       0.27
+Compute SHA256                14        0.00
+Console Updates               2         0.05
+Compare Dictionary            8         0.00
+Get Modified Date             6         0.00
+Get File Property Hash        6         0.00
+Write File                    7         0.00
+Verify Path                   12        0.00
+Clear Orphaned                4         0.03
 Write to Disk                 1         0.00
+Create Folder                 1         0.00
 Export Theme                  1         0.00
-Clear Orphaned                2         0.01
 App.ExportXML()               2         0.03
 Sanitize XML                  2         0.00
-Format XML                    2         0.01
+Format XML                    2         0.00
 Save Table SQL                2         0.01
-App.SaveAsText()              2         0.03
-Read File Bytes               4         0.03
-Read File DevMode             2         0.00
-Delete File                   2         0.00
-Sanitize File                 2         0.01
 Get VBA Hash                  2         0.00
+App.SaveAsText()              1         0.01
+Read File Bytes               2         0.01
+Read File DevMode             1         0.00
+Delete File                   1         0.00
+Sanitize File                 1         0.01
 --------------------------------------------------
 Other Operations                        0.42
 --------------------------------------------------

@@ -10,8 +10,8 @@ Begin Form
     GridY =24
     Width =26640
     DatasheetFontHeight =11
-    ItemSuffix =37
-    Right =20160
+    ItemSuffix =38
+    Right =25575
     Bottom =12240
     RecSrcDt = Begin
         0x3a4e1faef1cce540
@@ -212,6 +212,24 @@ Begin Form
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
             BackThemeColorIndex =1
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =3600
+                    Top =1320
+                    Width =2325
+                    Height =315
+                    BorderColor =8355711
+                    ForeColor =6710886
+                    Name ="Label37"
+                    Caption ="This is dashboard screen"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =3600
+                    LayoutCachedTop =1320
+                    LayoutCachedWidth =5925
+                    LayoutCachedHeight =1635
+                End
+            End
         End
         Begin FormFooter
             Height =0
