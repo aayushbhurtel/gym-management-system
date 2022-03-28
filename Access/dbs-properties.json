@@ -73,7 +73,7 @@
       "Type": 3
     },
     "Name": {
-      "Value": "rel:ECUGymProject.accdb",
+      "Value": "rel:demo.accdb",
       "Type": 12
     },
     "NavPane Category": {
@@ -157,7 +157,7 @@
       "Type": 1
     },
     "Theme Resource Name": {
-      "Value": "Office Theme",
+      "Value": "Ion",
       "Type": 10
     },
     "Themed Form Controls": {

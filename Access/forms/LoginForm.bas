@@ -27,7 +27,7 @@ Begin Form
     End
     RecordSource ="Login"
     Caption ="Login Screen"
-    DatasheetFontName ="Calibri"
+    DatasheetFontName ="Century Gothic"
     AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0
@@ -127,18 +127,19 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     TextAlign =2
-                    Left =3480
+                    TextFontFamily =0
+                    Left =2760
                     Top =60
-                    Width =3660
+                    Width =4380
                     Height =480
                     FontSize =18
                     Name ="Auto_Header0"
                     Caption ="ECU Fitness Center Login"
-                    FontName ="Calibri Light"
+                    FontName ="Century Gothic"
                     GroupTable =2
                     GridlineColor =10921638
                     HorizontalAnchor =2
-                    LayoutCachedLeft =3480
+                    LayoutCachedLeft =2760
                     LayoutCachedTop =60
                     LayoutCachedWidth =7140
                     LayoutCachedHeight =540
@@ -162,6 +163,7 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     TextAlign =1
+                    TextFontFamily =0
                     IMESentenceMode =3
                     Left =3480
                     Top =2700
@@ -175,6 +177,7 @@ Begin Form
                     BorderColor =10921638
                     ForeColor =4210752
                     Name ="textPassword"
+                    FontName ="Century Gothic"
                     InputMask ="Password"
                     GroupTable =1
                     BottomPadding =150
@@ -194,6 +197,7 @@ Begin Form
                         Begin Label
                             OverlapFlags =85
                             TextAlign =1
+                            TextFontFamily =0
                             Left =2220
                             Top =2700
                             Width =1200
@@ -206,6 +210,7 @@ Begin Form
                             ForeColor =6710886
                             Name ="lblPassword"
                             Caption ="Password:"
+                            FontName ="Century Gothic"
                             GroupTable =1
                             BottomPadding =150
                             GridlineColor =10921638
@@ -223,6 +228,7 @@ Begin Form
                 Begin CommandButton
                     Default = NotDefault
                     OverlapFlags =85
+                    TextFontFamily =0
                     Left =4080
                     Top =3720
                     TabIndex =2
@@ -230,16 +236,17 @@ Begin Form
                     Name ="btnLogin"
                     Caption ="Login"
                     OnClick ="[Event Procedure]"
+                    FontName ="Century Gothic"
                     GridlineColor =10921638
 
                     LayoutCachedLeft =4080
                     LayoutCachedTop =3720
                     LayoutCachedWidth =5520
                     LayoutCachedHeight =4080
-                    BackColor =14461583
-                    BorderColor =14461583
-                    HoverColor =15189940
-                    PressedColor =9917743
+                    BackColor =5527277
+                    BorderColor =5527277
+                    HoverColor =9277427
+                    PressedColor =921732
                     HoverForeColor =4210752
                     PressedForeColor =4210752
                     WebImagePaddingLeft =2
@@ -259,6 +266,7 @@ Begin Form
                     ForeColor =2366701
                     Name ="lblIncorrectUsername"
                     Caption ="* Incorrect Username"
+                    FontName ="Century Gothic"
                     GridlineColor =10921638
                     LayoutCachedLeft =7620
                     LayoutCachedTop =2220
@@ -278,6 +286,7 @@ Begin Form
                     ForeColor =2366701
                     Name ="lblIncorrectPassword"
                     Caption ="*Incorrect Password"
+                    FontName ="Century Gothic"
                     GridlineColor =10921638
                     LayoutCachedLeft =7680
                     LayoutCachedTop =2820
@@ -306,6 +315,7 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     TextAlign =1
+                    TextFontFamily =0
                     IMESentenceMode =3
                     Left =3480
                     Top =2160
@@ -318,6 +328,7 @@ Begin Form
                     BorderColor =10921638
                     ForeColor =4210752
                     Name ="textUsername"
+                    FontName ="Century Gothic"
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
@@ -334,6 +345,7 @@ Begin Form
                         Begin Label
                             OverlapFlags =85
                             TextAlign =1
+                            TextFontFamily =0
                             Left =2220
                             Top =2160
                             Width =1200
@@ -346,6 +358,7 @@ Begin Form
                             ForeColor =6710886
                             Name ="lblUsername"
                             Caption ="Username:"
+                            FontName ="Century Gothic"
                             GroupTable =1
                             BottomPadding =150
                             GridlineColor =10921638

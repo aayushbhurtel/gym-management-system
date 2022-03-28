@@ -1,0 +1,11 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "icons8-search-250",
+    "FileName": "icons8-search-250.png",
+    "Extension": "png"
+  }
+}

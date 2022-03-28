@@ -28,8 +28,6 @@
 				<od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
 				<od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 				<od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
-				<od:tableProperty name="ValidationRule" type="12" value="&quot;M&quot; Or &quot;F&quot;"/>
-				<od:tableProperty name="ValidationText" type="10" value="Gender could only be M or F."/>
 			</xsd:appinfo>
 		</xsd:annotation>
 		<xsd:complexType>
@@ -38,7 +36,7 @@
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+							<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 							<od:fieldProperty name="TextAlign" type="2" value="0"/>
 							<od:fieldProperty name="AggregateType" type="4" value="-1"/>
@@ -48,14 +46,14 @@
 						</xsd:appinfo>
 					</xsd:annotation>
 				</xsd:element>
-				<xsd:element name="MemberFirstName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+				<xsd:element name="MemberFirstName" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-							<od:fieldProperty name="Required" type="1" value="0"/>
-							<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+							<od:fieldProperty name="Required" type="1" value="1"/>
+							<od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
 							<od:fieldProperty name="DisplayControl" type="3" value="109"/>
 							<od:fieldProperty name="IMEMode" type="2" value="0"/>
 							<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
@@ -96,13 +94,13 @@
 						</xsd:restriction>
 					</xsd:simpleType>
 				</xsd:element>
-				<xsd:element name="MemberLastName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+				<xsd:element name="MemberLastName" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-							<od:fieldProperty name="Required" type="1" value="0"/>
+							<od:fieldProperty name="Required" type="1" value="1"/>
 							<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
 							<od:fieldProperty name="DisplayControl" type="3" value="109"/>
 							<od:fieldProperty name="IMEMode" type="2" value="0"/>
@@ -120,14 +118,14 @@
 						</xsd:restriction>
 					</xsd:simpleType>
 				</xsd:element>
-				<xsd:element name="MemberEmail" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+				<xsd:element name="MemberEmail" minOccurs="1" od:jetType="memo" od:sqlSType="ntext" od:nonNullable="yes">
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-							<od:fieldProperty name="Required" type="1" value="0"/>
-							<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+							<od:fieldProperty name="Required" type="1" value="1"/>
+							<od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
 							<od:fieldProperty name="IMEMode" type="2" value="0"/>
 							<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
 							<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
@@ -145,7 +143,7 @@
 						</xsd:restriction>
 					</xsd:simpleType>
 				</xsd:element>
-				<xsd:element name="MemberPhone" minOccurs="0">
+				<xsd:element name="MemberPhone" minOccurs="1" od:nonNullable="yes">
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
@@ -153,7 +151,7 @@
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 							<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 							<od:fieldProperty name="DefaultValue" type="12" value="0"/>
-							<od:fieldProperty name="Required" type="1" value="0"/>
+							<od:fieldProperty name="Required" type="1" value="1"/>
 							<od:fieldProperty name="DisplayControl" type="3" value="109"/>
 							<od:fieldProperty name="TextAlign" type="2" value="0"/>
 							<od:fieldProperty name="AggregateType" type="4" value="-1"/>
@@ -168,17 +166,15 @@
 						</xsd:restriction>
 					</xsd:simpleType>
 				</xsd:element>
-				<xsd:element name="MemberGender" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+				<xsd:element name="MemberGender" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-							<od:fieldProperty name="Required" type="1" value="0"/>
-							<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
-							<od:fieldProperty name="ValidationRule" type="12" value="&quot;M&quot; Or &quot;F&quot;"/>
-							<od:fieldProperty name="ValidationText" type="10" value="Gender could only be M or F"/>
-							<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+							<od:fieldProperty name="Required" type="1" value="1"/>
+							<od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+							<od:fieldProperty name="DisplayControl" type="3" value="111"/>
 							<od:fieldProperty name="IMEMode" type="2" value="0"/>
 							<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
 							<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
@@ -186,6 +182,18 @@
 							<od:fieldProperty name="AggregateType" type="4" value="-1"/>
 							<od:fieldProperty name="ResultType" type="2" value="0"/>
 							<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+							<od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+							<od:fieldProperty name="RowSource" type="12" value="&quot;Male&quot;;&quot;Female&quot;"/>
+							<od:fieldProperty name="BoundColumn" type="3" value="1"/>
+							<od:fieldProperty name="ColumnCount" type="3" value="1"/>
+							<od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+							<od:fieldProperty name="ColumnWidths" type="10" value="1440"/>
+							<od:fieldProperty name="ListRows" type="3" value="16"/>
+							<od:fieldProperty name="ListWidth" type="10" value="1440twip"/>
+							<od:fieldProperty name="LimitToList" type="1" value="0"/>
+							<od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
+							<od:fieldProperty name="AllowValueListEdits" type="1" value="0"/>
+							<od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
 						</xsd:appinfo>
 					</xsd:annotation>
 					<xsd:simpleType>
@@ -194,13 +202,13 @@
 						</xsd:restriction>
 					</xsd:simpleType>
 				</xsd:element>
-				<xsd:element name="MemberDOB" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime">
+				<xsd:element name="MemberDOB" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-							<od:fieldProperty name="Required" type="1" value="0"/>
+							<od:fieldProperty name="Required" type="1" value="1"/>
 							<od:fieldProperty name="IMEMode" type="2" value="0"/>
 							<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
 							<od:fieldProperty name="TextAlign" type="2" value="0"/>
@@ -211,14 +219,14 @@
 						</xsd:appinfo>
 					</xsd:annotation>
 				</xsd:element>
-				<xsd:element name="MemberStreet" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+				<xsd:element name="MemberStreet" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-							<od:fieldProperty name="Required" type="1" value="0"/>
-							<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+							<od:fieldProperty name="Required" type="1" value="1"/>
+							<od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
 							<od:fieldProperty name="DisplayControl" type="3" value="109"/>
 							<od:fieldProperty name="IMEMode" type="2" value="0"/>
 							<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
@@ -235,14 +243,14 @@
 						</xsd:restriction>
 					</xsd:simpleType>
 				</xsd:element>
-				<xsd:element name="MemberCity" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+				<xsd:element name="MemberCity" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-							<od:fieldProperty name="Required" type="1" value="0"/>
-							<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+							<od:fieldProperty name="Required" type="1" value="1"/>
+							<od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
 							<od:fieldProperty name="DisplayControl" type="3" value="109"/>
 							<od:fieldProperty name="IMEMode" type="2" value="0"/>
 							<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
@@ -259,20 +267,20 @@
 						</xsd:restriction>
 					</xsd:simpleType>
 				</xsd:element>
-				<xsd:element name="MemberState" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+				<xsd:element name="MemberState" minOccurs="1" od:jetType="memo" od:sqlSType="ntext" od:nonNullable="yes">
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-							<od:fieldProperty name="Required" type="1" value="0"/>
-							<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
-							<od:fieldProperty name="ValidationText" type="10" value="Enter two letter State Name"/>
-							<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+							<od:fieldProperty name="Required" type="1" value="1"/>
+							<od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
 							<od:fieldProperty name="IMEMode" type="2" value="0"/>
 							<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
 							<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+							<od:fieldProperty name="TextFormat" type="2" value="0"/>
 							<od:fieldProperty name="TextAlign" type="2" value="0"/>
+							<od:fieldProperty name="AppendOnly" type="1" value="0"/>
 							<od:fieldProperty name="AggregateType" type="4" value="-1"/>
 							<od:fieldProperty name="ResultType" type="2" value="0"/>
 							<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
@@ -280,18 +288,18 @@
 					</xsd:annotation>
 					<xsd:simpleType>
 						<xsd:restriction base="xsd:string">
-							<xsd:maxLength value="2"/>
+							<xsd:maxLength value="536870910"/>
 						</xsd:restriction>
 					</xsd:simpleType>
 				</xsd:element>
-				<xsd:element name="MemberZip" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+				<xsd:element name="MemberZip" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
 					<xsd:annotation>
 						<xsd:appinfo>
 							<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 							<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 							<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-							<od:fieldProperty name="Required" type="1" value="0"/>
-							<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+							<od:fieldProperty name="Required" type="1" value="1"/>
+							<od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
 							<od:fieldProperty name="DisplayControl" type="3" value="109"/>
 							<od:fieldProperty name="IMEMode" type="2" value="0"/>
 							<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>

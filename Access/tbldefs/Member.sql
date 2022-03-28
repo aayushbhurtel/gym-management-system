@@ -9,6 +9,6 @@
   [MemberDOB] DATETIME ,
   [MemberStreet] VARCHAR (255),
   [MemberCity] VARCHAR (255),
-  [MemberState] VARCHAR (2),
+  [MemberState] LONGTEXT ,
   [MemberZip] VARCHAR (5)
 )

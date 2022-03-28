@@ -5,65 +5,84 @@
   },
   "Items": {
     "MergeBuildDate": null,
-    "FullBuildDate": null,
-    "ExportDate": "3/27/2022 4:50:44 PM",
+    "FullBuildDate": "3/27/2022 4:51:46 PM",
+    "ExportDate": "3/28/2022 2:20:02 PM",
     "FullExportDate": "3/27/2022 11:43:30 AM",
     "OptionsHash": "687142d",
     "LastMergedCommit": "",
     "Components": {
       "Forms": {
+        "AddNewMember.bas": {
+          "ExportDate": "3/28/2022 2:20:02 PM",
+          "SourceModified": "3/28/2022 2:20:02 PM",
+          "FilePropertiesHash": "ea7fea2"
+        },
         "formDashboard.bas": {
-          "ExportDate": "3/27/2022 4:50:44 PM",
-          "SourceModified": "3/27/2022 4:50:44 PM",
-          "FilePropertiesHash": "27532e7",
-          "Hash": "8bf541d"
+          "ExportDate": "3/28/2022 2:20:02 PM",
+          "SourceModified": "3/28/2022 2:20:02 PM",
+          "FilePropertiesHash": "d726de3",
+          "ImportDate": "3/27/2022 4:51:44 PM"
         },
         "LoginForm.bas": {
-          "Hash": "f92b1cf",
-          "ExportDate": "3/27/2022 4:33:20 PM",
-          "SourceModified": "3/27/2022 4:33:20 PM",
-          "FilePropertiesHash": "8350909"
+          "ExportDate": "3/28/2022 2:20:02 PM",
+          "SourceModified": "3/28/2022 2:20:02 PM",
+          "FilePropertiesHash": "406f02d",
+          "ImportDate": "3/27/2022 4:51:44 PM",
+          "Hash": "f92b1cf"
         }
       },
       "Project": {
         "project.json": {
           "Hash": "19c3478",
-          "ExportDate": "3/27/2022 4:50:43 PM",
+          "ExportDate": "3/28/2022 2:20:01 PM",
           "SourceModified": "3/27/2022 11:43:30 AM",
-          "FilePropertiesHash": "79861e7"
+          "FilePropertiesHash": "79861e7",
+          "ImportDate": "3/27/2022 4:51:43 PM"
+        }
+      },
+      "Queries": {
+        "login_username_display.bas": {
+          "ExportDate": "3/28/2022 2:20:01 PM",
+          "SourceModified": "3/28/2022 2:20:01 PM",
+          "FilePropertiesHash": "0e71348"
         }
       },
       "Tables": {
         "Login.xml": {
-          "ExportDate": "3/27/2022 4:50:44 PM",
-          "SourceModified": "3/27/2022 4:50:44 PM",
-          "FilePropertiesHash": "bbd748c"
+          "ExportDate": "3/28/2022 2:20:01 PM",
+          "SourceModified": "3/28/2022 2:20:01 PM",
+          "FilePropertiesHash": "e436849",
+          "ImportDate": "3/27/2022 4:51:43 PM"
         },
         "LoginType.xml": {
           "ExportDate": "3/27/2022 11:43:30 AM",
           "SourceModified": "3/27/2022 11:43:30 AM",
-          "FilePropertiesHash": "226094b"
+          "FilePropertiesHash": "226094b",
+          "ImportDate": "3/27/2022 4:51:43 PM"
         },
         "Member.xml": {
-          "ExportDate": "3/27/2022 4:50:44 PM",
-          "SourceModified": "3/27/2022 4:50:44 PM",
-          "FilePropertiesHash": "02319e4"
+          "ExportDate": "3/28/2022 2:20:01 PM",
+          "SourceModified": "3/28/2022 2:20:01 PM",
+          "FilePropertiesHash": "01c2cfc",
+          "ImportDate": "3/27/2022 4:51:43 PM"
         }
       },
       "VB Project": {
         "vbe-project.json": {
-          "Hash": "5d13a36",
-          "ExportDate": "3/27/2022 4:50:43 PM",
-          "SourceModified": "3/27/2022 11:43:30 AM",
-          "FilePropertiesHash": "29869fd"
+          "Hash": "729652d",
+          "ExportDate": "3/28/2022 2:20:01 PM",
+          "SourceModified": "3/28/2022 2:20:01 PM",
+          "FilePropertiesHash": "fdd640c",
+          "ImportDate": "3/27/2022 4:51:43 PM"
         }
       },
       "VBE References": {
         "vbe-references.json": {
           "Hash": "9521cdc",
-          "ExportDate": "3/27/2022 4:50:43 PM",
+          "ExportDate": "3/28/2022 2:20:01 PM",
           "SourceModified": "3/27/2022 11:43:30 AM",
-          "FilePropertiesHash": "a92872f"
+          "FilePropertiesHash": "a92872f",
+          "ImportDate": "3/27/2022 4:51:43 PM"
         }
       }
     }

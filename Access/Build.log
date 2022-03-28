@@ -1,0 +1,135 @@
+﻿-------------------------------------
+Beginning Build from Source
+ECUGymProject.accdb
+VCS Version 3.4.20
+3/27/2022 4:51:43 PM
+-------------------------------------
+Saving backup of original database...
+Saved as ECUGymProject_VCSBackup.accdb.
+Created blank database for import. (v12)
+Removing non built-in references...
+  Removed DAO
+  Removed stdole
+-------------------------------------
+-------------------------------------
+Importing project...          
+  project.json
+[1]
+-------------------------------------
+Importing vb project...       
+  vbe-project.json
+[1]
+-------------------------------------
+Importing vbe references...   
+  vbe-references.json
+[1]
+-------------------------------------
+No vbe forms source files found.
+-------------------------------------
+Importing proj properties...  
+  proj-properties.json
+[1]
+-------------------------------------
+No saved specs source files found.
+-------------------------------------
+Importing db properties...    
+  dbs-properties.json
+[1]
+-------------------------------------
+Importing shared images...    
+  East_Central_logo.json
+[1]
+-------------------------------------
+Importing themes...           
+  Office Theme.thmx
+[1]
+-------------------------------------
+No imex specs source files found.
+-------------------------------------
+Importing tables...           
+  Login.xml
+  LoginType.xml
+  Member.xml
+[3]
+-------------------------------------
+No queries source files found.
+-------------------------------------
+Importing forms...            
+  formDashboard.bas
+  LoginForm.bas
+[2]
+-------------------------------------
+No macros source files found.
+-------------------------------------
+No reports source files found.
+-------------------------------------
+No table data source files found.
+-------------------------------------
+No modules source files found.
+-------------------------------------
+No table data macros source files found.
+-------------------------------------
+Importing relations...        
+  MemberLogin.json
+[1]
+-------------------------------------
+Importing doc properties...   
+  documents.json
+[1]
+-------------------------------------
+Importing nav pane groups...  
+  nav-pane-groups.json
+[1]
+-------------------------------------
+No hidden attributes source files found.
+Initializing forms...
+-------------------------------------
+Done. (1.04 seconds)
+
+--------------------------------------------------
+                PERFORMANCE REPORTS
+--------------------------------------------------
+Object Type                   Count     Seconds
+--------------------------------------------------
+Project                       1         0.02
+VB Project                    1         0.02
+VBE References                1         0.02
+Proj Properties               1         0.00
+DB Properties                 1         0.04
+Shared Images                 1         0.01
+Themes                        1         0.05
+Tables                        3         0.13
+Forms                         2         0.14
+Relations                     1         0.01
+Doc Properties                1         0.00
+Nav Pane Groups               1         0.02
+--------------------------------------------------
+TOTALS:                       15        0.47
+--------------------------------------------------
+
+--------------------------------------------------
+Operations                    Count     Seconds
+--------------------------------------------------
+Console Updates               2         0.07
+Create new database           1         0.24
+Read File                     11        0.00
+Parse JSON                    11        0.02
+Clear References              1         0.02
+Convert to JSON               20        0.01
+Compute SHA256                15        0.00
+Get Modified Date             10        0.00
+Get File Property Hash        10        0.01
+Add GUID References           2         0.00
+App.SaveAsText()              1         0.00
+Read File Bytes               3         0.01
+Delete File                   5         0.00
+Verify Path                   4         0.00
+Enc. utf-8 as utf-16          2         0.00
+App.LoadFromText()            2         0.12
+Get VBA Hash                  2         0.00
+Initialize Forms              2         0.04
+--------------------------------------------------
+Other Operations                        0.50
+--------------------------------------------------
+
+
