@@ -20,8 +20,8 @@ Begin Form
     ItemSuffix =46
     Left =3225
     Top =2775
-    Right =13440
-    Bottom =7935
+    Right =28545
+    Bottom =15015
     RecSrcDt = Begin
         0x032b60c0eccce540
     End
@@ -408,6 +408,17 @@ Private Sub btnLogin_Click()
         Exit Sub
     End If
     Me.lblIncorrectPassword.Visible = False
+    
+    'On the login page,upon confirming the login is correct,
+    'Initialise session variables
+    TempVars.RemoveAll 'This will Destroy any previous Session
+    ' Retrieve Full Name from the table based on login username
+    Dim fullName As String
+    fullName = DLookup("[MemberFirstName]", "[Member]", "[MemberFirstName] ='" & Me.textUsername & "'")
+    'Load the username into a global variable
+    TempVars.Add "globalUserName", fullName
+    'use this name to use whenever you want to use it
+    'LoggedInUser = TempVars![globalUserName]
     
     DoCmd.OpenForm "formDashboard"
     

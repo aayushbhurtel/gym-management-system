@@ -3,7 +3,7 @@ Beginning Export of all Source
 demo.accdb
 VCS Version 3.4.20
 Using Fast Save
-3/28/2022 2:20:01 PM
+3/29/2022 6:12:12 PM
 -------------------------------------
 -------------------------------------
 Exporting project...          
@@ -52,24 +52,22 @@ Exporting tables...
   Login
     Sanitized in 0.009 seconds.
   Login (SQL)
-  Member
-    Sanitized in 0.004 seconds.
-  Member (SQL)
-[2]
+[1]
 -------------------------------------
 Exporting queries...          
   login_username_display
+Source: modSanitize.SanitizeFile
     Sanitized in 0.003 seconds.
   login_username_display (SQL)
 [1]
 -------------------------------------
 Exporting forms...            
-  LoginForm
-    Sanitized in 0.009 seconds.
   formDashboard
-    Sanitized in 0.020 seconds.
+    Sanitized in 0.024 seconds.
+  LoginForm
+    Sanitized in 0.010 seconds.
   AddNewMember
-    Sanitized in 0.014 seconds.
+    Sanitized in 0.012 seconds.
 [3]
 -------------------------------------
 No modified macros found in this database.
@@ -96,7 +94,7 @@ Exporting nav pane groups...
 -------------------------------------
 No modified hidden attributes found in this database.
 -------------------------------------
-Done. (1.27 seconds)
+Done. (1.33 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
@@ -104,53 +102,53 @@ Done. (1.27 seconds)
 Object Type                   Count     Seconds
 --------------------------------------------------
 Project                       1         0.02
-VB Project                    1         0.04
-VBE References                2         0.03
-Proj Properties               2         0.02
-DB Properties                 50        0.22
-Shared Images                 6         0.05
+VB Project                    1         0.02
+VBE References                2         0.02
+Proj Properties               2         0.01
+DB Properties                 50        0.16
+Shared Images                 6         0.09
 Themes                        4         0.02
-Tables                        2         0.09
-Queries                       1         0.03
-Forms                         3         0.45
+Tables                        1         0.06
+Queries                       1         0.04
+Forms                         3         0.59
 Relations                     1         0.02
 Doc Properties                2         0.02
 Nav Pane Groups               1         0.02
 --------------------------------------------------
-TOTALS:                       76        1.04
+TOTALS:                       75        1.09
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
-Read File                     19        0.09
-Parse JSON                    10        0.01
-Convert to JSON               741       0.31
+Read File                     23        0.12
+Parse JSON                    15        0.01
+Convert to JSON               575       0.23
 Compute SHA256                18        0.00
-Console Updates               3         0.07
-Compare Dictionary            8         0.00
-Get Modified Date             9         0.00
-Get File Property Hash        9         0.00
-Write File                    17        0.02
-Verify Path                   33        0.01
-Clear Orphaned                4         0.03
+Console Updates               3         0.06
+Compare Dictionary            13        0.00
+Get Modified Date             8         0.00
+Get File Property Hash        8         0.00
+Clear Orphaned                5         0.06
+Verify Path                   23        0.00
 Write to Disk                 6         0.00
-Create Folder                 2         0.00
+Create Folder                 1         0.00
 Export Theme                  4         0.01
-App.ExportXML()               2         0.03
-Sanitize XML                  2         0.00
-Format XML                    2         0.01
-Save Table SQL                2         0.01
+App.ExportXML()               1         0.03
+Sanitize XML                  1         0.00
+Format XML                    1         0.01
+Write File                    8         0.00
+Save Table SQL                1         0.01
 App.SaveAsText()              4         0.05
+Delete File                   4         0.00
 Read File Bytes               7         0.04
-Sanitize File                 4         0.04
+Sanitize File                 4         0.05
 Save Query SQL                1         0.00
 Read File DevMode             3         0.01
-Delete File                   2         0.00
 Get VBA Hash                  3         0.00
-Increment Progress            1         0.03
+Increment Progress            1         0.02
 --------------------------------------------------
-Other Operations                        0.52
+Other Operations                        0.65
 --------------------------------------------------
 
 
